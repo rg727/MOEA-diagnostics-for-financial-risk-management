@@ -1,0 +1,5 @@
+populationSize 100.0 100.0
+sbx.rate 1.0 1.0
+sbx.distributionIndex 30.0 30.0
+pm.rate 0.03 0.03
+pm.distributionIndex 20.0 20.0
