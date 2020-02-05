@@ -50,12 +50,12 @@ Note: Two missing files are:
     - type "java -cp MOEAFramework-2.12-Demo.jar org.moeaframework.analysis.sensitivity.SetContribution -e 0.05,0.1,0.5,0.1 -r portfolio.ref Borg_portfolio.set NSGAII_portfolio.set MOEAD_portfolio.set RVEA_portfolio.set NSGAIII_portfolio.set > portfolio_set_contribution.txt". The result is a text file with percentages of algorithm contribution
     
 7) Generation of Metrics: 
-* evaluate.sh : Creates metrics file for each seed and parameterization for each algorithm. 
+   * evaluate.sh : Creates metrics file for each seed and parameterization for each algorithm. 
   -type "./evaluate.sh" and metrics files will be created in ./data_metrics 
 
 8) Calculating Overall Problem Hypervolume: The relevant files are: 
 
-* HypervolumeEval.java (and the corresponding .class file that is created from it (-type "javac -classpath MOEAFramework-2.12-Demo.jar HypervolumeEval.java)  
+   * HypervolumeEval.java (and the corresponding .class file that is created from it (-type "javac -classpath MOEAFramework-2.12-   Demo.jar HypervolumeEval.java)  
 -type "java -cp MOEAFramework-2.12-Demo.jar HypervolumeEval ./data_ref/portfolio.ref >> lake_ref.hypervolume
  
 ## Steps to Run for Processing Data (./data_processing) ##
